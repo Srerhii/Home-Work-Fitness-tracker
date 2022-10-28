@@ -61,5 +61,8 @@ public class FitnessTracker {
 
     public void setNumberOfSteps(int numberOfSteps) {this.numberOfSteps = numberOfSteps;}
 
+    public int getAge(){
+        return 2020-yearsOfBirth;
+    }
 
 }

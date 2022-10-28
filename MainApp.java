@@ -50,20 +50,28 @@ public class MainApp {
         );
 
         printAccountInfo(Rob);
+        System.out.println("-------------------------------------");
         printAccountInfo(Jon);
+        System.out.println("-------------------------------------");
         printAccountInfo(Arya);
+        System.out.println("-------------------------------------");
         printAccountInfo(Sansa);
-
-
+        Jon.setSurname("Stark");
+        Jon.setNumberOfSteps(18000);
+        Sansa.setSurname("Lanister");
+        Sansa.setWeight(56);
+        System.out.println("-------------------------------------");
+        printAccountInfo(Jon);
+        System.out.println("-------------------------------------");
+        printAccountInfo(Sansa);
     }
-
 
         public static void printAccountInfo(FitnessTracker Client){
             String a = Client.getName();
             int b = Client.getDatOfBirth();
             int c = Client.getMonthOfBirth();
             int d = Client.getYearsOfBirth();
-            int age = 2020-Client.getYearsOfBirth();
+            int age = Client.getAge();
             String e = Client.getMail();
             int f = Client.getTelNumber();
             String g = Client.getSurname();
