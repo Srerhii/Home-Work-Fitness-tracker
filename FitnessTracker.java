@@ -62,5 +62,4 @@ public class FitnessTracker {
     public void setNumberOfSteps(int numberOfSteps) {this.numberOfSteps = numberOfSteps;}
 
 
-
 }
